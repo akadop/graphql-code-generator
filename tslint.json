@@ -26,7 +26,7 @@
     "no-unused-expression": true,
     "no-use-before-declare": false,
     "no-var-keyword": false,
-    "no-implicit-dependencies": [true, "dev"],
+    "no-implicit-dependencies": true,
     "object-literal-sort-keys": false,
     "no-conditional-assignment": true,
     "one-line": [true, "check-open-brace", "check-whitespace"],
