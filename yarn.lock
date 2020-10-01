@@ -2052,22 +2052,13 @@
     is-promise "4.0.0"
     tslib "~2.0.1"
 
-"@graphql-tools/git-loader@6.2.3":
-  version "6.2.3"
-  resolved "https://registry.npmjs.org/@graphql-tools/git-loader/-/git-loader-6.2.3.tgz#a2a217064201adf109139e7a0784ac23926894bf"
-  integrity sha512-kWUsQ6rhFTSC6NhfNUxLJsMwtop4Es8e0xLz8IKqboDl+a3gRqv4bdGUVKXndNj98G7bt6DZRqH7LTS0dPmZwQ==
+"@graphql-tools/git-loader@6.2.4", "@graphql-tools/git-loader@^6":
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/git-loader/-/git-loader-6.2.4.tgz#2502d48cb1253bde7df3f3e1dfd2bdcf7ff72b82"
+  integrity sha512-urMwWhhsZUKnX9MDHXbMUfZd568pWwj1Bx1O2M7N8I25GqZDW54Fzj9DudlVKE5M9twMtoEyBTH7sH4tscliqg==
   dependencies:
-    "@graphql-tools/graphql-tag-pluck" "6.2.3"
-    "@graphql-tools/utils" "6.2.3"
-    tslib "~2.0.1"
-
-"@graphql-tools/git-loader@^6":
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/git-loader/-/git-loader-6.2.2.tgz#6e2fe4e5853b90a3096dc88d9827f3d4b47c16d9"
-  integrity sha512-gfhQX5ZQ7nc4AAW6tT0s2d0o2lkYtMMhaeX4miPMGd+Hgej1phLrIeSSEAfrlSy0JWgARmmsoXGuz76wDZdhjw==
-  dependencies:
-    "@graphql-tools/graphql-tag-pluck" "6.2.2"
-    "@graphql-tools/utils" "6.2.2"
+    "@graphql-tools/graphql-tag-pluck" "^6.2.4"
+    "@graphql-tools/utils" "^6.2.4"
     tslib "~2.0.1"
 
 "@graphql-tools/github-loader@6.2.3":
@@ -2132,6 +2123,19 @@
     "@babel/traverse" "7.11.5"
     "@babel/types" "7.11.5"
     "@graphql-tools/utils" "6.2.3"
+    tslib "~2.0.1"
+  optionalDependencies:
+    vue-template-compiler "^2.6.12"
+
+"@graphql-tools/graphql-tag-pluck@^6.2.4":
+  version "6.2.5"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/graphql-tag-pluck/-/graphql-tag-pluck-6.2.5.tgz#5c0c47362406a55aaf661c4af0209b542b8483dc"
+  integrity sha512-qvdIOTanBuKYLIMSYl9Tk+ej9dq00B4BqUnHqoCvYtSjD1n1UINGrqXgwMT+JXp66gUZWw8BU9Ke92mQ4UwTpg==
+  dependencies:
+    "@babel/parser" "7.11.5"
+    "@babel/traverse" "7.11.5"
+    "@babel/types" "7.11.5"
+    "@graphql-tools/utils" "^6.2.4"
     tslib "~2.0.1"
   optionalDependencies:
     vue-template-compiler "^2.6.12"
@@ -2352,10 +2356,19 @@
     camel-case "4.1.1"
     tslib "~2.0.1"
 
-"@graphql-tools/utils@6.2.3", "@graphql-tools/utils@^6", "@graphql-tools/utils@^6.0.0":
+"@graphql-tools/utils@6.2.3":
   version "6.2.3"
   resolved "https://registry.npmjs.org/@graphql-tools/utils/-/utils-6.2.3.tgz#235636b47a62f12f3dddbdd30b2986fc03f3a5fa"
   integrity sha512-eOhZy4y23r6AddokBqvFpQybtHvhTyZCc3VFWn8eIqF92vre90UKHbCX6Cf6VBo6i7l0ZwChPPbUzEiHOk+HJQ==
+  dependencies:
+    "@ardatan/aggregate-error" "0.0.6"
+    camel-case "4.1.1"
+    tslib "~2.0.1"
+
+"@graphql-tools/utils@^6", "@graphql-tools/utils@^6.0.0", "@graphql-tools/utils@^6.2.4":
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-6.2.4.tgz#38a2314d2e5e229ad4f78cca44e1199e18d55856"
+  integrity sha512-ybgZ9EIJE3JMOtTrTd2VcIpTXtDrn2q6eiYkeYMKRVh3K41+LZa6YnR2zKERTXqTWqhobROwLt4BZbw2O3Aeeg==
   dependencies:
     "@ardatan/aggregate-error" "0.0.6"
     camel-case "4.1.1"
