@@ -3342,7 +3342,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@16.9.52", "@types/react@^16.x":
+"@types/react@*", "@types/react@16.9.52":
   version "16.9.52"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.52.tgz#c46c72d1a1d8d9d666f4dd2066c0e22600ccfde1"
   integrity sha512-EHRjmnxiNivwhGdMh9sz1Yw9AUxTSZFxKqdBWAAzyZx3sufWwx6ogqHYh/WB1m/I4ZpjkoZLExF5QTy2ekVi/Q==
@@ -14544,12 +14544,11 @@ react-markdown@5.0.1:
     unist-util-visit "^2.0.0"
     xtend "^4.0.1"
 
-react-monaco-editor@0.39.1:
-  version "0.39.1"
-  resolved "https://registry.yarnpkg.com/react-monaco-editor/-/react-monaco-editor-0.39.1.tgz#2be0edf38f62eab127214c4d930f3d3ae369bfee"
-  integrity sha512-D2GKJlPxEIwkad9n1L7K/J3rLZ/UlMItS44YPO4cGQCcUJyKdwJkhOtk7q8gCqVd2uu7jyfyb8U34iSe+z9Aeg==
+react-monaco-editor@0.40.0:
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/react-monaco-editor/-/react-monaco-editor-0.40.0.tgz#f1b021b32952cfc63a4bf2661fd20f61b2b8309f"
+  integrity sha512-IG322vOwKc/yjhn91xbqHONyAVxjv5L0YOUBU+hDwfswlglm/sGsqGhK9n1lD5d3l3kegMO/ZeZaMHC2LGgNRw==
   dependencies:
-    "@types/react" "^16.x"
     monaco-editor "*"
     prop-types "^15.7.2"
 
