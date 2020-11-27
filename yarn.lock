@@ -2573,9 +2573,9 @@
     "@graphql-tools/utils" "^7.0.0"
     tslib "~2.0.1"
 
-"@graphql-tools/optimize@1.0.1":
+"@graphql-tools/optimize@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.npmjs.org/@graphql-tools/optimize/-/optimize-1.0.1.tgz#9933fffc5a3c63f95102b1cb6076fb16ac7bb22d"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/optimize/-/optimize-1.0.1.tgz#9933fffc5a3c63f95102b1cb6076fb16ac7bb22d"
   integrity sha512-cRlUNsbErYoBtzzS6zXahXeTBZGPVlPHXCpnEZ0XiK/KY/sQL96cyzak0fM/Gk6qEI9/l32MYEICjasiBQrl5w==
   dependencies:
     tslib "~2.0.1"
@@ -4444,7 +4444,7 @@ ansi-align@^3.0.0:
   dependencies:
     string-width "^3.0.0"
 
-ansi-colors@^3.0.0, ansi-colors@^3.2.1:
+ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
   integrity sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==
@@ -7298,7 +7298,7 @@ debug@^3.1.0, debug@^3.1.1, debug@^3.2.5:
   dependencies:
     ms "^2.1.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -7900,19 +7900,12 @@ enhanced-resolve@^4.3.0:
     memory-fs "^0.5.0"
     tapable "^1.0.0"
 
-enquirer@^2.3.0, enquirer@^2.3.6:
+enquirer@^2.3.0, enquirer@^2.3.5, enquirer@^2.3.6:
   version "2.3.6"
   resolved "https://registry.npmjs.org/enquirer/-/enquirer-2.3.6.tgz#2a7fe5dd634a1e4125a975ec994ff5456dc3734d"
   integrity sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==
   dependencies:
     ansi-colors "^4.1.1"
-
-enquirer@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.5.tgz#3ab2b838df0a9d8ab9e7dff235b0e8712ef92381"
-  integrity sha512-BNT1C08P9XD0vNg3J475yIUG+mVdp9T6towYFHUv897X0KoHBjB1shyrNmhmtHWKP17iSWgo7Gqh7BBuzLZMSA==
-  dependencies:
-    ansi-colors "^3.2.1"
 
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.2"
@@ -10210,7 +10203,7 @@ import-local@^3.0.2:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -11872,10 +11865,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@10.5.1:
-  version "10.5.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.1.tgz#901e915c2360072dded0e7d752a0d9a49e079daa"
-  integrity sha512-fTkTGFtwFIJJzn/PbUO3RXyEBHIhbfYBE7+rJyLcOXabViaO/h6OslgeK6zpeUtzkDrzkgyAYDTLAwx6JzDTHw==
+lint-staged@10.5.2:
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.5.2.tgz#acfaa0093af3262aee3130b2e22438941530bdd1"
+  integrity sha512-e8AYR1TDlzwB8VVd38Xu2lXDZf6BcshVqKVuBQThDJRaJLobqKnpbm4dkwJ2puypQNbLr9KF/9mfA649mAGvjA==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
@@ -12059,11 +12052,6 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -12072,32 +12060,10 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.npmjs.org/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
-  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
@@ -12263,11 +12229,6 @@ lodash.reject@^4.4.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/lodash.reject/-/lodash.reject-4.6.0.tgz#80d6492dc1470864bbf583533b651f42a9f52415"
   integrity sha1-gNZJLcFHCGS79YNTO2UfQqn1JBU=
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
-  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.set@^4.3.2:
   version "4.3.2"
